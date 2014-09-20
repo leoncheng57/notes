@@ -18,7 +18,11 @@ The following takes String and make it all caps
 	System.out.println( "all caps..." );
 	System.out.println( "Hello".toUpperCase() );
 	System.out.println( object1.getGreeting().toUpperCase() );
-	
 
+//The following does the same as above, but using the method makeAllCaps
+
+	System.out.println("all caps...");
+	System.out.println(object1.makeAllCaps("Hello"));
+	
     }
 }

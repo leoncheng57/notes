@@ -21,5 +21,10 @@ public class Greeter {
     public String greetPerson(String person){
 	return greeting + person;
     }
+
+    //The following takes a string and returns it with all caps
+    public String makeAllCaps(String s){
+	return s.toUpperCase();
+    }
     
 }

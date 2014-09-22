@@ -7,7 +7,7 @@ ex.Sup Tommy
 
 public class Greeter {
 
-    private String greeting;
+    private String person;
     public String greetPerson(person){
 	return "Hello " + person;
     }

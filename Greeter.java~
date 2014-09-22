@@ -7,12 +7,24 @@ ex.Sup Tommy
 
 public class Greeter {
 
+<<<<<<< HEAD
     public String greetPerson(greeting){
 	return greeting + "Tommy"
 
 
 
+=======
+    private String greeting;
+    public String greetPerson(person){
+	return "Hello " + person;
+    }
+    
+>>>>>>> cded281069b0998c515eaaf72a76f8d5c58412ac
 /*
 g1.loudGreet()
 ex.hello->HELLO
  */
+<<<<<<< HEAD
+=======
+}
+>>>>>>> cded281069b0998c515eaaf72a76f8d5c58412ac

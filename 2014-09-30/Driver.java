@@ -1,11 +1,11 @@
 public class Driver {
     public static void main(String[] args){
-	int n = 9;
-	//System.out.println(n);
-	while (n >= 0) {
+	int n = 0; //initialize
+	while (n < 10) { //test for termination
 	    System.out.println(n);
-	    //n = n - 1;
-	    n -= 1;
+	    n = n+1; //increment
+	    //n += 1; //Mr.Z advises not to use this
+	    //N: x++ or ++x is kind of like x=x+1 //Mr.Z advises not to use these
 	}
     }
 }

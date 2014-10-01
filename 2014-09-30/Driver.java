@@ -1,3 +1,4 @@
+//We want to print out the numbers 0,1,2,...,9 using a while loop
 public class Driver {
     public static void main(String[] args){
 	int n = 0; //initialize

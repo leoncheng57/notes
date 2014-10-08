@@ -12,7 +12,7 @@ public class Driver {
 	//FIRST TESTS
 	m2 = m1; //works
 	//m2 = b1; //error: incompatible types	
-	//m2 = w1; //error: incompatible types //SHOULD BE c1	
+	//m2 = w1; //error: incompatible types	
 	System.out.println(m2);
 	
 	//NEXT TESTS

@@ -23,8 +23,8 @@ public class Driver {
 
 	/*
 	  My conclusion from this hw:
-	  For inheritance, you can only go UP a level
-	  Cannot go down or side-to-side (subclass to subclass)
+	  For inheritance instance variables, you can only go down a level
+	  Cannot go up or side-to-side (subclass to subclass)
 	 */
     }
 }

@@ -1,3 +1,13 @@
+/*
+
+  THIS CODE WAS JUST A STARTER ON TODAY'S DO NOW. THIS CODE MAY OR MAY NOT RUN. BUT IT IS INCOMPLETE.
+
+RECOMMENDED: JUST IGNORE THIS FILE AND LOOK AT THE GITHUB CLASSCODE FILE FOR TODAY (IT HAS EVERYTHING ABOUT THE DO NOW AND IS COMPLETED)
+
+
+ */
+
+
 public class Arraystuff  {
     public static void main(String[] args){
 	//write code the create an array of 100 ints and fill with random ints between 75 and 150

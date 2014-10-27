@@ -1,9 +1,0 @@
-public class Notes {
-    public static void main(String[] args){
-	//write code the create an array of 100 ints and fill with random ints between 75 and 150
-
-	Random r = new Random();
-	System.out.println(r);
-	
-    }
-}

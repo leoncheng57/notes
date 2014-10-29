@@ -7,6 +7,7 @@ public class Arrays{
 	    if (n.equals(int[i])) {
 		return i;
 	    }
+	    
 	}
     }
     

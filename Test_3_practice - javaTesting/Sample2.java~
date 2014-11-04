@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Sample{
+    public static void main(String[] args){
+	System.out.println();
+	Random r = new Random(10);
+	n = r.nextInt();
+	System.out.println(n);
+	
+    }
+}
+

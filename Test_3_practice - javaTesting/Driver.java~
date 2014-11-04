@@ -1,0 +1,6 @@
+public class Driver{
+    public static void main(String[] args){
+	Subclass s = new Subclass();
+	System.out.prinln(s.foo2);
+    }
+}

@@ -1,0 +1,7 @@
+public class Sarray{
+    private int[] data; //should be Object[]
+
+    public Sarray(){
+	
+    }
+}

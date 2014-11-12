@@ -1,0 +1,12 @@
+import java.util.*;
+public class Things{
+    public static void main(String[] args){
+	System.out.println();
+	ArrayList al = new ArrayList();
+	System.out.println(al);
+
+	al.add(10);
+	System.out.println(al);
+	
+    }
+}

@@ -1,0 +1,10 @@
+public class TokenPass{
+    public TokenPass(int playerCount){
+	int[] intArray = new int[playerCount];
+	Random r = new Random();
+	for (int i=0;i<intArray.length;i++){
+	    intArray[i]=r.nextInt(10)+1;
+	}
+	currentPlayer = r.nextInt(playerCount);
+    }
+}

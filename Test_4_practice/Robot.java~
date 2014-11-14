@@ -1,0 +1,16 @@
+public class Robot{
+    private int[] hall;
+    private int pos;
+    private boolean faceingRight;
+   
+
+    private boolean forwardMoveBlocked(){
+	if (facingRight==true && pos = hall.length-1){
+	    return true;
+	}
+	if (facingRight == false && pos == 0){
+	    return true;
+	}
+    }
+    
+}

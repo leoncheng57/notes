@@ -1,0 +1,11 @@
+class Collection {
+    private ArrayList<Interval> collection;
+    private int lastInterval;
+
+    //Constructor not shown
+
+    public boolean Overlap(Interval a, Interval b){
+	
+    }
+    
+}

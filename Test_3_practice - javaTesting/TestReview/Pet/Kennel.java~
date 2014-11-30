@@ -1,0 +1,9 @@
+public class Kennnel {
+    private Pet[] petList;
+    //TODO:intiialize this with a constructor
+
+    public void allSpeak(){
+	for (int i=0;i<petList.length
+    }
+
+}

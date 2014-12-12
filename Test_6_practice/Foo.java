@@ -19,6 +19,8 @@ public class Foo{
     //MAIN
     public static void main(String[] args){
 	Foo f = new Foo();
-
+	int[] a = {1,231,12321,123124531,4325325,325252352};
+	Arrays.sort(a,3,6);
+	System.out.println(Arrays.toString(a));
     }
 }

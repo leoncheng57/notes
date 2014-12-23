@@ -1,0 +1,74 @@
+import java.util.Arrays;
+
+public class HorseBarn{
+	
+    private Horse[] spaces;
+
+    // public int findHorseSpace(String name){
+    // 	for (int i=0;i<this.spaces.length;i++){
+    // 	    if (this.spaces[i] != null && name.equals(this.spaces[i].getName())){
+    // 		return i;
+    // 	    }
+    // 	}
+    // 	return -1;
+    // }
+
+    public int findHorseSpace(String name) {
+    	int i = 0;
+     	while (i<spaces.length){
+	    if(spaces[i]!=null && name.equals(spaces[i].getName())){ //ON THE TEST, I forgot about spaces[i]!=null
+		return i;
+	    }
+	    i++;
+     	}
+     	return -1;
+    }		
+
+    // public void consolidate(){
+    // 	for (int i=0;i<this.spaces.length-1;i++){
+    // 	    if (this.spaces[i]==null){
+    // 		for (int j=i+1;j<this.spaces.length;j++){
+    // 		    if (this.spaces[j] != null){
+    // 			this.spaces[i]=this.spaces[j];
+    // 			this.spaces[j]=null;
+    // 			j=this.spaces.length;
+    // 		    }
+    // 		}
+    // 	    }
+    // 	}
+    // }
+    
+	
+    public void consolidate(){
+	for (int i=0;i<spaces.length;i++){
+	    for (int j=i;j>0&&spaces[j-1]==null;j--){
+		spaces[j-1]=spaces[j];
+		spaces[j]=null;
+	    }
+	}
+    }
+
+	
+    public HorseBarn(){
+	spaces = new Horse[7];
+	spaces[0]=new Horse("Trigger",1340);
+	spaces[2]=new Horse("Silver",1210);
+	//spaces[3]=new Horse("Lady",1575);
+	spaces[5]=new Horse("Patches",1350);
+	spaces[6]=new Horse("Duke",1410);
+    }
+	
+    public String toString(){
+	return Arrays.toString(spaces);
+    }
+	
+    public static void main(String[] args){
+	HorseBarn hb = new HorseBarn();
+	System.out.println(hb);
+	System.out.println(hb.findHorseSpace("Trigger"));
+	System.out.println(hb.findHorseSpace("Silver"));
+	System.out.println(hb.findHorseSpace("Coco"));
+	hb.consolidate();
+	System.out.println(hb);
+    }
+}
